@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+body{
+    font-family: 'Piazzolla', serif;
+}
+/* heading */
+.flag{
+    margin-top: 16px;
+    margin-left: 700px;
+}
+/* end of heading */
+
+/* second navbar */
+/* carousel */
+#images2{
+    background-image: url(images/matheus-ferrero-334418-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: center;
+    height: 560px;
+    width: 1349px;
+}
+.images2{
+    padding-top: 150px;
+}
+#images3{
+    background-image: url(images/ian-dooley-347942-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: center;
+    height: 560px;
+    width: 1349px;
+}
+.images3{
+    padding-top: 150px;
+}
+#images1{
+    background-image: url(images/haley-phelps-62815-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: center;
+    height: 560px;
+    width: 1349px;
+}
+.images1{
+    padding-top: 150px;
+}
+.buttons{
+    border: 10px solid white;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.buttons:hover{
+    text-decoration: none;
+    color: black;
+}
+/* end of carousel */
+/* end of second navbar */
+
+/* top picks and arrivals */
+.picks{
+    background-image: url(images/top_pics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+.collections{
+    background-image: url(images/new_arrivals.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+/* end of top picks and arrivals */
+
+/*   jackets */
+
+.jackets{
+    background-image: url(images/jackets.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.lookbook{
+    background-image: url(images/look_book.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.trythis{
+    background-image: url(images/try_this.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+#shopnow1,#shopnow2{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: white;
+}
+#shopnow3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: black
+}
+#shopnow1,
+#shopnow2:hover{
+    color: white;
+    background-color: transparent;
+}
+#shopnow3{
+    color: black;
+}
+/* end of jackets */
+
+/* services */
+.services{
+    background-color: rgba(185, 165, 165, 0.219);
+}
+.truck{
+    border-right: 1px solid black;
+    margin-top: 90px;
+}
+/* end of services */
+
+/* contact us */
+.bg-gray{
+    background-color: #dee2e6 ;
+}
+/* end of contact us */
